@@ -1,12 +1,12 @@
 Penjelasan DFS :
 
-Baris 2-9: graph akan direpresentasikan menggunakan daftar adjacency - agar lebih mudah kita akan menggunakan Python yiatu dengan menggunakan struktur data dictionary. Setiap vertex menyimpan daftar node yang saling berkaitan.
+Baris 1-12: graph akan direpresentasikan menggunakan daftar adjacency - agar lebih mudah kita akan menggunakan Python yiatu dengan menggunakan struktur data dictionary. Setiap vertex menyimpan daftar node yang saling berkaitan.
 
-Baris 11: fungsi visited berikut merupakan set yang digunakan untuk melacak node yang akan dikunjungi.
+Baris 14: fungsi visited berikut merupakan set yang digunakan untuk melacak node yang akan dikunjungi.
 
-Baris 21: disini dfs dipanggil dan melewati set yang dikunjungi, dan dipresentasikan dalam bentuk dictionary dimana 1 yang merupakan simpul awal.
+Baris 24: disini dfs dipanggil dan melewati set yang dikunjungi, dan dipresentasikan dalam bentuk dictionary dimana 1 yang merupakan simpul awal.
 
-Baris 13-18: jadi pada fungsi berfungsi untuk memeriksa apakah node saat ini belum dikunjungi - jika ya, akan ditambahkan dalam set yang sudah dikunjungi. Kemudian untuk setiap keluarga dari node saat ini, fungsi dfs dipanggil lagi. Fungsi akan kembali ketika semua node sudah dikunjungi.
+Baris 16-21: jadi pada fungsi berfungsi untuk memeriksa apakah node saat ini belum dikunjungi - jika ya, akan ditambahkan dalam set yang sudah dikunjungi. Kemudian untuk setiap keluarga dari node saat ini, fungsi dfs dipanggil lagi. Fungsi akan kembali ketika semua node sudah dikunjungi.
 
 Penjelasan BFS :
 
