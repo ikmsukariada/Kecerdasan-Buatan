@@ -12,12 +12,12 @@ Penjelasan BFS :
 
 baris 1 - 12 : graph akan direpresentasikan menggunakan daftar adjacency - agar lebih mudah kita akan menggunakan Python yiatu dengan menggunakan struktur data dictionary. Setiap vertex menyimpan daftar node yang saling berkaitan.
 
-Baris 12: fungsi visited berikut merupakan set yang digunakan untuk melacak node yang akan dikunjungi.
+Baris 14: fungsi visited berikut merupakan set yang digunakan untuk melacak node yang akan dikunjungi.
 
-Baris 13: fungsi ini akan membuat antrian yang akan digunakan untuk melacak node saat ini dalam sebuah antrian.
+Baris 15: fungsi ini akan membuat antrian yang akan digunakan untuk melacak node saat ini dalam sebuah antrian.
 
-Baris 29: fungsi bfs ini akan memberikan daftar yang sudah dikunjungi dan akan dipresentasikan dengan grafik dalam bentuk dictionary, dan simpul awalnya adalah 1.
+Baris 31: fungsi bfs ini akan memberikan daftar yang sudah dikunjungi dan akan dipresentasikan dengan grafik dalam bentuk dictionary, dan simpul awalnya adalah 1.
 
-Baris 15-26: Dalam algoritma BFS, simpul anak yang telah dikunjungi disimpan dalam suatu antrian. Antrian ini digunakan untuk mengacu simpul-simpul yang bertetangga dengannya yang akan dikunjungi kemudian sesuai urutan pengantrian.
+Baris 17-28: Dalam algoritma BFS, simpul anak yang telah dikunjungi disimpan dalam suatu antrian. Antrian ini digunakan untuk mengacu simpul-simpul yang bertetangga dengannya yang akan dikunjungi kemudian sesuai urutan pengantrian.
 
 fungsi ini akan berlanjut sampai antriannya  kosong.
